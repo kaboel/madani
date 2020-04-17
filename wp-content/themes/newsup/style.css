@@ -2725,6 +2725,6 @@ footer .mg-widget .woocommerce ul.cart_list li img, footer .mg-widget .woocommer
 }
 .footer-ad {
 	border: 1px solid black;
-	height: 90px;
-	width: 728px;
+	height: 90px !important;
+	width: 728px !important;
 }
