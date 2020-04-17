@@ -20,6 +20,8 @@
 }
 .mg-headwidget .site-branding-text, .mg-headwidget .site-branding-text a, .site-title a, .site-description, .site-title a:hover {
 	color: #fff;
+	padding-top: 32px;
+    font-size: 3rem;
 }
 .mg-headwidget .trans {
 	background: rgba(0, 0, 0, 0.0);

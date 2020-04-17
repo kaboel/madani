@@ -84,17 +84,41 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
                         <div class="divide-line"></div>
                         <div class="row">
                             <!--col-md-4-->
-                            <div class="col-md-6">
-                               <?php the_custom_logo(); 
-                               if (display_header_text()) : ?>
-                              <div class="site-branding-text">
-                              <h1 class="site-title"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-                              <p class="site-description"><?php bloginfo('description'); ?></p>
+                            <div class="col-md-4">
+                               <!-- <?php the_custom_logo();?> -->
+
+                              <a href="<?php echo home_url() ?>">
+                                <img class="img-responsive" src="<?php echo home_url('/wp-content/uploads/2020/04/')?>Untitled-1.png"/>
+                              </a>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="row" style="margin-bottom: 10px">
+                                <div class="col-md-6">
+                                  <div class="footer-ad">advertisement</div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="footer-ad">advertisement</div>
+                                </div>
                               </div>
-                              <?php endif; ?>
+                              <div class="row" style="margin-bottom: 10px">
+                                <div class="col-md-6">
+                                  <div class="footer-ad">advertisement</div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="footer-ad">advertisement</div>
+                                </div>
+                              </div>
+                              <div class="row" style="margin-bottom: 10px">
+                                <div class="col-md-6">
+                                  <div class="footer-ad">advertisement</div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="footer-ad">advertisement</div>
+                                </div>
+                              </div>
                             </div>
 
-                             <?php 
+                             <!-- <?php 
                               $footer_social_icon_enable = esc_attr(get_theme_mod('footer_social_icon_enable','true'));
                               if($footer_social_icon_enable == true)
                               {
@@ -110,11 +134,11 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
                               $newsup_footer_youtube_target = esc_attr(get_theme_mod('newsup_footer_youtube_target','true'));
                               $newsup_footer_pinterest_link = get_theme_mod('newsup_footer_pinterest_link');
                               $newsup_footer_pinterest_target = esc_attr(get_theme_mod('newsup_footer_pinterest_target','true'));
-                              ?>
+                              ?> -->
 
-                            <div class="col-md-6 text-right text-xs">
+                            <!-- <div class="col-md-6 text-right text-xs"> -->
                                 
-                            <ul class="mg-social">
+                            <!-- <ul class="mg-social">
                                     <?php if($newsup_footer_fb_link !=''){?>
                                     <li><span class="icon-soci facebook"><a <?php if($newsup_footer_fb_target) { ?> target="_blank" <?php } ?>href="<?php echo esc_url($newsup_footer_fb_link); ?>"><i class="fa fa-facebook"></i></a></span> </li>
                                     <?php } if($newsup_footer_twt_link !=''){ ?>
@@ -131,12 +155,10 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
                                     if($newsup_footer_pinterest_link !=''){ ?>
                                     <li><span class="icon-soci pinterest"><a <?php if($newsup_footer_pinterest_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($newsup_footer_pinterest_link); ?>"><i class="fa fa-pinterest-p"></i></a></span></li>
                                     <?php } ?>
-                             </ul>
-
-
+                             </ul> -->
                             </div>
                             <!--/col-md-4-->  
-                            <?php } ?> 
+                            <!-- <?php } ?>  -->
                         </div>
                         <!--/row-->
                     </div>

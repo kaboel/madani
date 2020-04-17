@@ -41,14 +41,14 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-4 text-center-xs">
                                 <div class="navbar-header">
-                                <?php the_custom_logo(); 
-                                if (display_header_text()) : ?>
+                                <?php the_custom_logo(); ?>
                                 <div class="site-branding-text">
-                                <h1 class="site-title"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-                                <p class="site-description"><?php bloginfo('description'); ?></p>
+                                
+                                <p class="site-description"  style="font-size: 3rem">
+                                  Cepat, Akurat, Santun dan Berbudaya
+                                </p>
                                 </div>
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wp"> <span class="sr-only"><?php esc_html_e('Toggle Navigation','newsup');?></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                              <?php endif; ?>
                                 </div>
                             </div>
                            <?php do_action('newsup_action_banner_advertisement'); ?>

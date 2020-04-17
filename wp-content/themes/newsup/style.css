@@ -2723,3 +2723,8 @@ footer .mg-widget .woocommerce ul.cart_list li img, footer .mg-widget .woocommer
 .navigation.pagination > li:first-child > a, .navigation.pagination > li:first-child > span {
     border-radius: 30px;
 }
+.footer-ad {
+	border: 1px solid black;
+	height: 90px;
+	width: 728px;
+}
